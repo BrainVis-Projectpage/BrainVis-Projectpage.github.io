@@ -6,7 +6,13 @@ description: BrainVis official project site
 
 # User settings
 username: BrainVis
-user_description: I'm a Software Engineer from Argentina, always searching for the next challenge; no task is too scary nor too difficult. Lately I have been immersed in world of Giving Circles working with Grapevine, a California based startup trying to improve the world through collaborative giving. I'm the first engineer they hired to work on the platform.
+user_authors: Honghao Fu<sup>1,2</sup>, Zhiqi Shen<sup>2</sup>, Jing Jih Chin<sup>2</sup>, Hao Wang<sup>1</sup> (Corresponding Author)< br>The Hong Kong University of Science and Technology (Guangzhou)< br>Nanyang Technological University
+user_abstract: I'm a Software Engineer from Argentina, always searching for the next challenge; no task is too scary nor too difficult.
+user_Contribution: I'm a Software Engineer from Argentina, always searching for the next challenge; no task is too scary nor too difficult.
+user_Experiment Results: I'm a Software Engineer from Argentina, always searching for the next challenge; no task is too scary nor too difficult.
+user_BibTeX: I'm a Software Engineer from Argentina, always searching for the next challenge; no task is too scary nor too difficult.
+user_Acknowledgments: I'm a Software Engineer from Argentina, always searching for the next challenge; no task is too scary nor too difficult.
+
 user_title: Exploring the bridge between brain and visual signals via image reconstruction
 email: hfu006@ntu.edu.sg
 # twitter_username: lorem_ipsum
