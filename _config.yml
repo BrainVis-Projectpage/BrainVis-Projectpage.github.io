@@ -11,14 +11,12 @@ user_abstract: <p class="left-align">Analyzing and reconstructing visual stimuli
 user_framework: <img src="pic2.jpg" alt="Framework"><p class="left-align">We first aim to obtain the time and frequency features for the given EEG signals, in which the time encoder leverages self-supervised pre-training approach with masking segmentation and latent reconstruction, while the frequency encoder employs LSTM to extract features with Fast Fourier Transform (FFT). Then the time and frequency encoders are fine-tuned simultaneously with EEG classifier to obtain time-frequency dual embedding. Following this, an alignment network aligns the EEG time-frequency dual embedding with the fine-grained semantic of visual stimuli image in CLIP space, which is semantic interpolation of the label of visual stimuli image and its caption. Finally, the aligned EEG fine-grained embedding, along with the coarse-grained embedding of classification result, serve as conditions of cascaded diffusion models for multi-level semantic visual reconstruction.</p>
 user_Contribution: <p class="left-align"><ul class="left-align"><li>We improve the self-supervised embedding method for EEG time-domain features, eliminating the reliance on additional self-collected large-scale dataset. </li><li>We propose the first EEG visual stimuli reconstruction method that integrates time and frequency-domain features, enhancing the EEG representations.</li><li>BrainVis generates images with higher accuracy and better quality, and also overcomes previous limitation that was limited to only coarse-grained reconstruction.</li></ul></p>
 user_Experiment_Results: <p class="left-align">Below are visual stimuli reconstruction results (partial) and the ground truth (GT) images. We are able to not only reconstruct the correct types but also capture their fine-grained semantics to some extent, like prominent numerical, color, environmental, or behavioral features. For more results, please download the supplementary material.</p><img src="pic3.jpg" alt="exp1"><p class="left-align">Below is the comparison of reconstructed images’ quality between our method and prior works.</p><img src="pic4.jpg" alt="exp2"><p class="left-align">Below is the comparison of reconstructed images with the previews work on the same GT image.</p><img src="pic5.jpg" alt="exp3"><p class="left-align">For quantitative experiment, please download the paper.</p>
-user_BibTeX: <pre style="background-color: #f4f4f4; padding: 10px; border-radius: 5px;">
-@misc{fu2023brainvis,
-      title={BrainVis: Exploring the Bridge between Brain and Visual Signals via Image Reconstruction}, 
-      author={Honghao Fu and Zhiqi Shen and Jing Jih Chin and Hao Wang},
-      year={2023},
-      eprint={2312.14871},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+user_BibTeX: <pre style="#f4f4f4;">
+@article{fu2023sdr,<br>&nbsp&nbsp
+  title={SDR-GAIN: A High Real-Time Occluded Pedestrian Pose Completion Method for Autonomous Driving},<br>
+  author={Fu, Honghao},<br>&nbsp&nbsp
+  journal={arXiv preprint arXiv:2306.03538},<br>&nbsp&nbsp
+  year={2023}
 }
 </pre>
 
